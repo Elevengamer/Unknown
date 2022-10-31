@@ -1,0 +1,66 @@
+:root{
+    --black: #000;
+    --grey: #1d1d1e;
+    --green: #05ff1a;
+    --codeFG: #00fbd9;
+}
+
+* {
+    line-height: 1.5;
+}
+
+code{    
+    color: var(--codeFG);
+    /*   Mit unterschiedlichen ressourcen kann angepasst werden das aus sieht wie ide   */
+}
+
+a{
+    color: var(--green);
+}
+
+ul{
+    color: var(--green);
+}
+body {
+    background: var(--black);
+    margin: 0;
+    padding: 20px;
+    color: white;
+    max-width: 100vh;
+    min-height: 100vh;
+}
+h1,
+h2 {
+    background: var(--green);
+    color: black;
+    text-align: center;
+    padding: 1%;
+    border-radius: 20px;
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 1500;
+}
+
+
+@media(min-width:900px) {
+    .maincontainer {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 50%;
+        background: var(--grey);
+        color: white;
+        margin: 0px auto;
+        padding: 1.5% 1%;
+        min-height: 100vh;
+        box-shadow: 0px 0px 2px 5px var(--green);
+    }
+
+    body {
+        font-size: 16px;        
+        background: var(--black);
+        margin: 0;
+        padding: 0px;
+        color: white;
+        max-width: none;
+    }
+}

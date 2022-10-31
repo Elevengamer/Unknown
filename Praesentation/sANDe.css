@@ -1,0 +1,30 @@
+:root{
+    --black: #000;
+    --grey: #1d1d1e;
+    --green: #05ff1a;
+    --codeFG: #00fbd9;
+}
+* {
+    line-height: 2.5;
+}
+
+body{
+    background: var(--black);
+}
+
+.maincontainer{
+    max-height: 100vh;
+    align-items: center;
+    margin-top: 20%;    
+}
+
+h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;    
+    background: var(--green);
+    border-radius: 125px;
+    font-size: 100px;
+    text-align: center;
+}
