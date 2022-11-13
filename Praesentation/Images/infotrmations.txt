@@ -1,0 +1,7 @@
+OpenWeatherMap.com
+Für die Json Erstellung hab ich Newtonsoft benutzt
+bei CSV ServiceStack
+bei XML die ganz normale System.Xml
+sollte am besten auch mit bei stehen falls dies bezüglich fragen kommen
+
+
